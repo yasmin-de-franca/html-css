@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/*HTML id = CSS # somente 1 elemento
+  HTML class = CSS . vários elementos*/
+body {
+    background-color: #82b18a;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+h1 {
+    color: #22b13d;
+}
+
+h1#principal {
+    color: #56C76A;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px 1px #597A5F;
+}
+
+h2 {
+    color: #357A41;
+}
+
+.basico {
+    color: #72357a;
+}
+
+.intermediario {
+    color: #357A41;
+}
+
+.avancado {
+    color: #35477a;
+}
+
+p {
+    text-align: justify;
+    font-style: italic;
+}
+
+main {
+    background-color: white;
+    border-radius: 5%;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 15px #597A5F;
+}
