@@ -4,20 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo - Teste de Imagem</title>
     <style>
         body {
             height: 97vh;
-            background-color: black;
+            /*background-color: #3876d3ce;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand - background
+                color > image > position > repeat > [size] > attachment
+            */
+
+            background: #3876d3ce url('imagens/wallpaper002.jpg') center center no-repeat fixed;
             background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 500px;
+            min-width: 300px;
             padding: 10px;
             margin: auto;
             box-shadow: 1px 2px 2px #01015c;
@@ -29,7 +38,7 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab ullam obcaecati, aut assumenda perspiciatis sunt ipsam recusandae eligendi! Iste illo similique quam placeat aspernatur. Quisquam, possimus. Neque culpa architecto deleniti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa numquam maxime quod explicabo mollitia quas non dolor ducimus quia, ab ipsa voluptatibus vitae, error veniam dolorum voluptatum rem? Consequatur, nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quos eius accusantium deserunt. Culpa, incidunt. Laudantium tempora dolorum quo labore voluptate. Animi magnam aspernatur quas id explicabo vel tempore fugiat.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab ullam obcaecati, aut assumenda perspiciatis sunt ipsam recusandae eligendi! Iste illo similique quam placeat aspernatur. Quisquam, possimus. Neque culpa architecto deleniti! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa numquam maxime quod explicabo mollitia quas non dolor ducimus quia, ab ipsa voluptatibus vitae, error veniam dolorum voluptatum rem? Consequatur, nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quos eius accusantium deserunt. Culpa, incidunt. Laudantium tempora dolorum quo labore voluptate. Animi magnam aspernatur quas id explicabo vel tempore fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit incidunt culpa dignissimos quidem, odit mollitia fuga tenetur a ad exercitationem atque nam veniam iusto earum amet fugiat similique nisi optio? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, doloremque? Totam atque ea, error quasi quidem dolorum obcaecati in neque animi culpa eligendi doloremque vel reiciendis dolore omnis minus nobis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo aperiam, aliquid veritatis ipsa exercitationem voluptatum consequatur totam sequi ut, sit qui inventore quae accusantium odio placeat ipsum, sapiente itaque odit! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum esse dolore assumenda exercitationem! Aliquid non, quas consectetur aut perferendis fugiat iste recusandae magni, quod placeat veniam inventore! Ratione, beatae ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi maxime at quo, doloremque aut ipsa in necessitatibus, laudantium nesciunt quam non. Magni, suscipit architecto ipsum alias consequatur itaque molestias atque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, blanditiis? Nesciunt dolore, ipsum odio consectetur fugiat corrupti iusto obcaecati libero. Commodi, ad eum cupiditate in modi quis harum maiores distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque enim repellendus itaque error explicabo, et unde commodi sapiente deleniti eveniet consequatur, tenetur doloremque! Commodi laborum id laboriosam ipsum voluptatibus?</p>
     </main>
 </body>
 </html>
