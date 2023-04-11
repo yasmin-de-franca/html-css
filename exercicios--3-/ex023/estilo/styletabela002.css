@@ -5,8 +5,9 @@ body {
 }
 
 table{
-    width: 600px;
+    width: 500px;
     border-collapse: collapse;
+    position: relative;
 }
 
 td, th {
@@ -14,8 +15,30 @@ td, th {
     padding: 7px;
 }
 
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 7px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    border-bottom: none;
+}
+
+tbody > tr:nth-child(2n) {
+    /*odd = ímpar
+    even = par
+    -1*/
+    background-color: #62859183;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: #808080;
+}
+
 thead, tfoot {
-    background-color: #808080e8;
+    background-color: #808080;
     color: white;
 }
 
